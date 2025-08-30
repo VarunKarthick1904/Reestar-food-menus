@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Vend Sans", sans-serif;
+}
+
+.navbar {
+  background-color: black;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+.navbar__desc {
+  display: inline;
+  color: gray;
+}
+
+.navbar__desc:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.recipie__menus {
+  width: 300px;
+  border: 3px solid black;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.container {
+  text-align: center;
+  padding: 10px;
+}
+
+.recipie__menus img {
+  width: 300px;
+  height: 400px;
+}
+
+.order-btn {
+  background-color: black;
+  color: white;
+  padding: 8px;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.recipie__desc:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.order-btn:hover {
+  background-color: cadetblue;
+  color: black;
+  border: none;
+  font-weight: bolder;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+table,
+td {
+  display: inline-block;
+  padding: 5px;
+}
+
+.input__name,
+.input__age,
+.input__email {
+  width: 200px;
+  padding: 5px;
+  padding-left: 5px;
+  margin-left: 5px;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+.input__send {
+  width: 400px;
+  margin-top: 2px;
+  background-color: yellow;
+  padding: 5px;
+  border-radius: 8px;
+  border: none;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.input__send:hover {
+  background-color: green;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+}

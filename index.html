@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reestar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vend+Sans:ital,wght@0,300..700;1,300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <h1 class="navbar__title">Reestar</h1>
+      <p class="navbar__desc">Home&nbsp;|</p>
+      <p class="navbar__desc">Receipe&nbsp;|</p>
+      <p class="navbar__desc">Contact</p>
+    </div>
+
+    <div class="container">
+      <div class="recipie__menus">
+        <img src="./Images/Recipie-01.jpeg" />
+        <p class="recipie__desc">
+          Chicken Biryani – Aromatic basmati rice cooked with tender chicken
+          pieces, layered with rich spices and herbs.
+        </p>
+        <button class="order-btn">Order Now</button>
+      </div>
+
+      <div class="recipie__menus">
+        <img src="./Images/Recipie-02.jpeg" />
+        <p class="recipie__desc">
+          Pepper Chicken – Succulent chicken cooked with freshly ground black
+          pepper, onions, and flavorful spices.
+        </p>
+        <button class="order-btn">Order Now</button>
+      </div>
+
+      <div class="recipie__menus">
+        <img src="./Images/Recipie-03.jpeg" />
+        <p class="recipie__desc">
+          Egg Gravy – Boiled eggs simmered in a rich onion-tomato base with
+          aromatic spices.A comforting and versatile dish
+        </p>
+        <button class="order-btn">Order Now</button>
+      </div>
+
+      <div class="recipie__menus">
+        <img src="./Images/Recipie-04.jpeg" />
+        <p class="recipie__desc">
+          Parota – A soft, flaky, layered flatbread made with refined flour and
+          cooked to golden perfection.
+        </p>
+        <button class="order-btn">Order Now</button>
+      </div>
+    </div>
+
+    <div class="footer">
+      <h2 class="footer__title">Contact Us</h2>
+      <form>
+        <table>
+          <tr>
+            <td><label for="name">Name:</label></td>
+            <td>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter Your Name"
+                class="input__name"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="age">Age:</label></td>
+            <td>
+              &nbsp;<input
+                type="number"
+                id="age"
+                name="age"
+                placeholder="Enter Your Age"
+                class="input__age"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="email">Email:</label></td>
+            <td>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter Your Email"
+                class="input__email"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td><input type="submit" value="Send" class="input__send" /></td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </body>
+</html>
