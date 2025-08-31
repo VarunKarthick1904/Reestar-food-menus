@@ -80,11 +80,23 @@ td {
 .input__name,
 .input__age,
 .input__email {
-  width: 200px;
   padding: 5px;
   padding-left: 5px;
-  margin-left: 5px;
+  margin-left: 2px;
   border: none;
+}
+
+.input__name {
+  width: 195px;
+}
+
+.input__age {
+  width: 195px;
+  margin-left: 10px;
+}
+
+.input__email {
+  width: 195px;
 }
 
 input:focus {
