@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.header__desc {
+  display: inline;
+  padding: 3px;
+  color: gray;
+}
+
+.header__desc:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.box-container {
+  text-align: center;
+  padding: 10px;
+}
+
+.box__items {
+  width: 300px;
+  border: 2px solid black;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.box__items img {
+  width: 300px;
+  height: 400px;
+}
+
+.box__items__desc {
+  padding: 3px;
+}
+
+.input__order {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin: 5px;
+  font-size: medium;
+}
+
+.input__order:hover {
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+
+.contact {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.contact__title {
+  font-size: 35px;
+}
+
+.contact__fields {
+  display: inline-block;
+}
+
+.input__name,
+.input__email,
+.input__age {
+  padding: 3px;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+}
+
+.submit__btn {
+  width: 30%;
+  padding: 10px;
+  margin-top: 6px;
+  border-radius: 10px;
+  background-color: yellow;
+  font-size: larger;
+  text-align: center;
+  font-weight: bold;
+}
+
+.submit__btn:hover {
+  background-color: skyblue;
+  font-size: larger;
+  cursor: pointer;
+}
+
+.box__items__desc:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}

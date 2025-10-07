@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reestar</title>
+    <!--CSS Link-->
+    <link rel="stylesheet" href="style.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+ <!--Header-->
+ <div class="header">
+    <h1 class="header__title">Reestar</h1>
+    <p class="header__desc">Home&nbsp;|</p>
+    <p class="header__desc">Receipe&nbsp;|</p>
+    <p class="header__desc">Contact</p>
+ </div>
+ 
+ <div class="box-container">
+    <div class="box__items">
+        <img src="./Images/Recipie-01.jpeg" alt="">
+        <p class="box__items__desc">Chicken Biryani is a fragrant and flavorful rice dish cooked with tender chicken, aromatic spices, and basmati rice.🍗✨</p>
+        <input class="input__order" type="button" value="Order Now">
+    </div>
+
+    <div class="box__items">
+        <img src="./Images/Recipie-02.jpeg" alt="">
+        <p class="box__items__desc">Grill Chicken is a juicy, smoky delight marinated with spices and perfectly charred over flames.🔥🍗</p>
+        <input class="input__order" type="button" value="Order Now">
+    </div>
+
+    <div class="box__items">
+        <img src="./Images/Recipie-03.jpeg" alt="">
+        <p class="box__items__desc">Parota is a flaky, layered South Indian flatbread made with maida and plenty of love.🫓✨</p>
+        <input class="input__order" type="button" value="Order Now">
+    </div>
+
+    <div class="box__items">
+        <img src="./Images/Recipie-04.jpeg" alt="">
+        <p class="box__items__desc">KFC Nuggets are crispy, golden bites of tender chicken coated in KFC’s secret blend of spices.🍗✨</p>
+        <input class="input__order" type="button" value="Order Now">
+    </div>
+ </div>
+
+ <!--Contact Form + Table-->
+ <div class="contact">
+    <h2 class="contact__title">Contact Us</h2>
+    <div class="contact__form">
+        <form>
+            <table class="contact__fields">
+                <tr>
+                    <td><label for="name">Name:</label></td>
+                    <td><input class="input__name" type="text" id="name" name="name" placeholder="Enter Your Name"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="age">Age:</label></td>
+                    <td><input class="input__age" type="number" id="age" name="age" placeholder="Enter Your Age"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input class="input__email" type="email" id="email" name="email" placeholder="Enter Your Email"></td>
+                </tr>
+
+            </table>
+            <div class="btn-container">
+            <button class="submit__btn" type="submit">Send</button>
+        </form>
+        
+ </div>
+</body>
+</html>
