@@ -3,6 +3,7 @@
 This is a single-page food menu website called Reestar, created using HTML and CSS. It showcases various food items in a simple, clean layout with a basic navbar and a contact section.
 
 🛠️ Features
+
 • Food items displayed in boxes with images and descriptions
 • Simple navbar for navigation
 • Contact form for users to get in touch
@@ -18,4 +19,4 @@ This is a single-page food menu website called Reestar, created using HTML and C
 
 This project was built to practice HTML and CSS layout techniques, including inline, inline-block, and block elements. It’s a simple project demonstrating frontend development fundamentals.
 
-🔗 Live Demo
+🔗 Live Demo:[ https://varunkarthick1904.github.io/Reestar-food-menus/]
