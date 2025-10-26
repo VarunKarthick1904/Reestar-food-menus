@@ -94,16 +94,10 @@ label {
   padding: 5px;
 }
 
-.btn-container {
-  padding: 5px;
-  text-align: center;
-  font-weight: 600;
-}
-
 .submit__btn {
   background-color: yellow;
   width: 35%;
-  padding: 10px;
+  padding: 8px;
   font-weight: 600;
   font-size: 20px;
   border-radius: 10px;
