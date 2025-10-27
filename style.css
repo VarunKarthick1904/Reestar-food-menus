@@ -94,17 +94,24 @@ label {
   padding: 5px;
 }
 
-.submit__btn {
-  background-color: yellow;
-  width: 35%;
-  padding: 8px;
-  font-weight: 600;
-  font-size: 20px;
-  border-radius: 10px;
+.btn-container {
+  width: 50%;
+  margin: 0 auto;
 }
 
-.submit__btn:hover {
+.submit-btn {
+  background-color: yellow;
+  width: 500px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.submit-btn:hover {
   background-color: green;
-  color: white;
   cursor: pointer;
+  color: white;
 }
