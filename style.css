@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.header__desc {
+  display: inline;
+  padding: 3px;
+  color: gray;
+}
+
+.header__desc:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.container {
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.Recipie-menus {
+  border: 3px solid black;
+  width: 330px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.Recipie-menus img {
+  width: 330px;
+  height: 500px;
+}
+
+.Recipie-menus__orderbtn {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.Recipie-menus__orderbtn:hover {
+  background-color: aqua;
+  color: black;
+  font-size: medium;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.Recipie-menus__desc:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.Recipie-menus__desc {
+  padding-left: 10px;
+  font-size: medium;
+  padding: 10px;
+}
+
+.contact {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.contact__title {
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.contact-form {
+  display: inline-block;
+  padding: 10px;
+}
+
+.contact-form__name {
+  padding: 10px;
+  margin: 5px;
+  width: 200px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.contact-form__age {
+  padding: 10px;
+  margin: 5px;
+  width: 200px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.contact-form__email {
+  padding: 10px;
+  margin: 5px;
+  width: 200px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.submit-btn {
+  width: 550px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: yellow;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.submit-btn:hover {
+  background-color: aquamarine;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.contact__fields {
+  display: inline-block;
+}
+
+.button__container {
+  margin-top: 10px;
+}

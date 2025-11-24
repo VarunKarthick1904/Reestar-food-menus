@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reestar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <h1 class="header__title">Reestar</h1>
+      <p class="header__desc">Home&nbsp;|</p>
+      <p class="header__desc">Recipie&nbsp;|</p>
+      <p class="header__desc">Contact</p>
+    </div>
+
+    <div class="container">
+      <div class="Recipie-menus">
+        <img src="./Images/Recipie-01.jpeg" />
+        <p class="Recipie-menus__desc">
+          Chicken Biryani is a fragrant and flavorful rice dish cooked with
+          tender chicken, aromatic spices, and basmati rice.🍗✨
+        </p>
+        <button class="Recipie-menus__orderbtn">Order Now</button>
+      </div>
+
+      <div class="Recipie-menus">
+        <img src="./Images/Recipie-02.jpeg" />
+        <p class="Recipie-menus__desc">
+          Grill Chicken is a juicy, smoky delight marinated with spices and
+          perfectly charred over flames.🔥🍗
+        </p>
+        <button class="Recipie-menus__orderbtn">Order Now</button>
+      </div>
+
+      <div class="Recipie-menus">
+        <img src="./Images/Recipie-03.jpeg" />
+        <p class="Recipie-menus__desc">
+          Parota is a flaky, layered South Indian flatbread made with maida and
+          plenty of love.🫓✨
+        </p>
+        <button class="Recipie-menus__orderbtn">Order Now</button>
+      </div>
+
+      <div class="Recipie-menus">
+        <img src="./Images/Recipie-04.jpeg" />
+        <p class="Recipie-menus__desc">
+          KFC Nuggets are crispy, golden bites of tender chicken coated in KFC’s
+          secret blend of spices.🍗✨
+        </p>
+        <button class="Recipie-menus__orderbtn">Order Now</button>
+      </div>
+    </div>
+
+    <div class="contact">
+      <h2 class="contact__title">Contact Us</h2>
+      <div class="contact-form">
+        <form>
+          <table class="contact__fields">
+            <tr>
+              <td><label for="name">Name:</label></td>
+              <td>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Enter Your Name"
+                  required
+                  class="contact-form__name"
+                />
+              </td>
+            </tr>
+
+            <tr>
+              <td><label for="age">Age:</label></td>
+              <td>
+                <input
+                  type="number"
+                  id="age"
+                  name="age"
+                  placeholder="Enter Your Age"
+                  required
+                  class="contact-form__age"
+                />
+              </td>
+            </tr>
+
+            <tr>
+              <td><label for="email">Email:</label></td>
+              <td>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Enter Your Email"
+                  required
+                  class="contact-form__email"
+                />
+              </td>
+            </tr>
+          </table>
+
+          <div class="button__container">
+            <button class="submit-btn">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
