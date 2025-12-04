@@ -25,4 +25,4 @@ It showcases a simple restaurant-style menu with food images, item names, short 
 
 • Applying basic CSS properties like spacing, alignment, and layout
 
-🔗Project Demo:[]
+🔗 Demo:[https://varunkarthick1904.github.io/Reestar-food-menus/]
