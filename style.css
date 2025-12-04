@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.header {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.header__menus {
+  display: inline-block;
+  color: gray;
+  padding: 4px;
+}
+
+.header__menus:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.container {
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px;
+}
+
+.recipie__menus {
+  border: 3px solid black;
+  width: 300px;
+  display: inline-block;
+  margin: 5px;
+}
+
+.recipie__menus img {
+  width: 300px;
+  height: 450px;
+}
+
+.recipie__menus__desc {
+  padding-left: 8px;
+  margin: 5px;
+}
+
+.recipie__menus__desc:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.recipie__orderbtn {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 5px;
+}
+
+.recipie__orderbtn:hover {
+  background-color: cadetblue;
+  color: black;
+  font-size: 16px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.footer__title {
+  font-size: 35px;
+}
+
+.contact-form {
+  padding: 10px;
+}
+
+.contact-form__table {
+  display: inline-block;
+}
+
+.contact-form__input {
+  margin-top: 10px;
+  padding: 5px;
+  width: 200px;
+}
+
+.contact-form__input:focus {
+  border: none;
+  outline: none;
+}
+
+.contact-form__table label {
+  padding: 5px;
+}
+
+.button__container {
+  margin-top: 5px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.send__button {
+  background-color: yellow;
+  width: 500px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: 700;
+  border: none;
+}
+
+.send__button:hover {
+  background-color: seagreen;
+  color: white;
+  cursor: pointer;
+}

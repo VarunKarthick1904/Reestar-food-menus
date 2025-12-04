@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reestar</title>
+    <!--CSS Stylesheet-->
+    <link rel="stylesheet" href="style.css" />
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <h1 class="header__title">Reestar</h1>
+        <p class="header__menus">Home&nbsp;|</p>
+        <p class="header__menus">Receipe&nbsp;|</p>
+        <p class="header__menus">Contact</p>
+      </div>
+    </header>
+
+    <section>
+      <div class="container">
+        <div class="recipie__menus">
+          <img src="./Images/Recipie-01.jpeg" alt="chicken-biryani" />
+          <p class="recipie__menus__desc">
+            Chicken Biryani is a fragrant and flavorful rice dish cooked with
+            tender chicken, aromatic spices🍗✨
+          </p>
+          <button class="recipie__orderbtn">Order Now</button>
+        </div>
+
+        <div class="recipie__menus">
+          <img src="./Images/Recipie-02.jpeg" alt="Grill-chicken" />
+          <p class="recipie__menus__desc">
+            Grill Chicken is a juicy, smoky delight marinated with spices and
+            perfectly charred over flames.🔥🍗
+          </p>
+          <button class="recipie__orderbtn">Order Now</button>
+        </div>
+
+        <div class="recipie__menus">
+          <img src="./Images/Recipie-03.jpeg" alt="Parota" />
+          <p class="recipie__menus__desc">
+            Parota is a flaky, layered South Indian flatbread made with maida
+            and plenty of love.🫓✨
+          </p>
+          <button class="recipie__orderbtn">Order Now</button>
+        </div>
+
+        <div class="recipie__menus">
+          <img src="./Images/Recipie-04.jpeg" alt="KFC-Nuggets" />
+          <p class="recipie__menus__desc">
+            KFC Nuggets are crispy, golden bites of tender chicken coated in
+            KFC’s secret blend of spices.🍗✨
+          </p>
+          <button class="recipie__orderbtn">Order Now</button>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer">
+        <h2 class="footer__title">Contact Us</h2>
+        <div class="contact-form">
+          <form>
+            <table class="contact-form__table">
+              <tr>
+                <td><label for="name">Name:</label></td>
+                <td>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter Your Name"
+                    required
+                    class="contact-form__input"
+                  />
+                </td>
+              </tr>
+
+              <tr>
+                <td><label for="age">Age:</label></td>
+                <td>
+                  <input
+                    type="number"
+                    id="age"
+                    name="age"
+                    placeholder="Enter Your Age"
+                    required
+                    class="contact-form__input"
+                  />
+                </td>
+              </tr>
+
+              <tr>
+                <td><label for="email">Email:</label></td>
+                <td>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter Your Email"
+                    required
+                    class="contact-form__input"
+                  />
+                </td>
+              </tr>
+            </table>
+            <div class="button__container">
+              <button class="send__button">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
