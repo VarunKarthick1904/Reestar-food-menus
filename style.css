@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.navbar {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar__menus {
+  display: inline-block;
+  color: gray;
+}
+
+.navbar__menus:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.receipe-container {
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.receipe {
+  width: 300px;
+  border: 4px solid black;
+  display: inline-block;
+  margin: 5px;
+}
+
+.receipe img {
+  width: 300px;
+  height: 400px;
+}
+
+.receipe__desc {
+  padding-left: 3px;
+}
+
+.receipe__desc:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.recipe__orderbtn {
+  background-color: black;
+  color: white;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+}
+
+.recipe__orderbtn:hover {
+  background-color: cornflowerblue;
+  color: black;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: black;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.footer__title {
+  font-size: 32px;
+}
+
+.contact__fields {
+  display: inline-block;
+}
+
+.contact-form {
+  margin-top: 5px;
+}
+
+.contact-form__input {
+  width: 200px;
+  padding: 5px;
+  border: none;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.contact-form__input:focus {
+  outline: 4px solid rgb(48, 31, 233);
+}
+
+.button__container {
+  margin-top: 10px;
+}
+
+.send__btn {
+  background-color: yellow;
+  width: 45%;
+  padding: 10px;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.send__btn:hover {
+  background-color: lightgreen;
+  cursor: pointer;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reestar</title>
+    <!--CSS Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+    <!--Google Fonts stylesheet-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!--Navbar-->
+    <div class="navbar">
+        <h1 class="navbar__title">Reestar</h1>
+        <p class="navbar__menus">Home&nbsp;|</p>
+        <p class="navbar__menus">Receipe&nbsp;|</p>
+        <p class="navbar__menus">Contact</p>
+    </div>
+
+    <!--Receipe section-->
+    <div class="receipe-container">
+        <div class="receipe">
+            <img src="./images/Recipie-01.jpeg">
+            <p class="receipe__desc">Chicken biryani is a flavorful rice dish made with fragrant basmati rice, tender
+                chicken, and a blend of aromatic spices.</p>
+            <button class="recipe__orderbtn">Order Now</button>
+        </div>
+
+        <div class="receipe">
+            <img src="./images/Recipie-02.jpeg">
+            <p class="receipe__desc">Grilled chicken is a juicy and flavorful dish made by marinating chicken in spices
+                and cooking it over an open flame or grill.</p>
+            <button class="recipe__orderbtn">Order Now</button>
+        </div>
+
+        <div class="receipe">
+            <img src="./images/Recipie-03.jpeg">
+            <p class="receipe__desc">Parota is a soft and flaky layered flatbread made from refined flour, popular in
+                South India.It is usually served hot salna.</p>
+            <button class="recipe__orderbtn">Order Now</button>
+        </div>
+
+        <div class="receipe">
+            <img src="./images/Recipie-04.jpeg">
+            <p class="receipe__desc">KFC nuggets are bite-sized pieces of chicken coated in a crispy, seasoned breading
+                and deep-fried to golden perfection.</p>
+            <button class="recipe__orderbtn">Order Now</button>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="footer">
+        <h2 class="footer__title">Contact Us</h2>
+        <div class="contact-form">
+            <form>
+                <table class="contact__fields">
+                    <tr>
+                        <td><label for="name">Name:</label></td>
+                        <td><input type="text" id="name" name="name" placeholder="Enter Your Name"
+                                class="contact-form__input"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="age">Age:</label></td>
+                        <td><input type="number" id="age" name="age" placeholder="Enter Your Age"
+                                class="contact-form__input"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="email" id="email" name="email" placeholder="Enter Your Email"
+                                class="contact-form__input"></td>
+                    </tr>
+                </table>
+                <div class="button__container">
+                    <button class="send__btn">Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
