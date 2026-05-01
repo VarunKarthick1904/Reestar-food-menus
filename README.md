@@ -5,7 +5,6 @@ REESTAR FOOD MENUS
 - Simple and clean design  
 - Single-page layout  
 - Displays food menu items clearly  
-- Includes items like chicken biryani, grilled chicken, parota, and nuggets  
 - Beginner-friendly structure  
 
 ## 🛠️ Tech Stack
@@ -13,5 +12,5 @@ REESTAR FOOD MENUS
 - HTML5  
 - CSS3  
 
- 🔗 Live Demo:[]
+ 🔗 Live Demo:[https://varunkarthick1904.github.io/Reestar-Food-Menus/]
 
